@@ -60,12 +60,13 @@
 #    define RSPC_KEYS KC_RIGHT_SHIFT, RSPC_MOD, RSPC_KEY
 #endif
 
-// Control / paren setup
+// Command / left curly setup
 #ifndef LCPO_KEYS
-#    define LCPO_KEYS KC_LEFT_CTRL, KC_LEFT_SHIFT, KC_9
+#    define LCPO_KEYS KC_LGUI, KC_LEFT_SHIFT, KC_LBRC
 #endif
+// Control / right curly setup
 #ifndef RCPC_KEYS
-#    define RCPC_KEYS KC_RIGHT_CTRL, KC_RIGHT_SHIFT, KC_0
+#    define RCPC_KEYS KC_RIGHT_CTRL, KC_RIGHT_SHIFT, KC_RBRC
 #endif
 
 // Alt / paren setup
